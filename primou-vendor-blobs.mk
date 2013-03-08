@@ -51,6 +51,7 @@ PRODUCT_COPY_FILES += \
 # Ril
 PRODUCT_COPY_FILES += \
     vendor/htc/primou/proprietary/lib/libdll.so:/system/lib/libdll.so \
+    vendor/htc/primou/proprietary/bin/rild:/system/bin/rild \
     vendor/htc/primou/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
     vendor/htc/primou/proprietary/lib/libdsutils.so:/system/lib/libdsutils.so \
     vendor/htc/primou/proprietary/lib/libhtc_ril.so:/system/lib/libhtc_ril.so \
@@ -58,6 +59,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primou/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
     vendor/htc/primou/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
     vendor/htc/primou/proprietary/lib/libril.so:/system/lib/libril.so \
+#    vendor/htc/primou/proprietary/lib/librpc.so:/system/lib/librpc.so \
     vendor/htc/primou/proprietary/lib/libqmi.so:/system/lib/libqmi.so
 
 # Random Crap..Verify necessity 
